@@ -17,4 +17,3 @@ if(isset($_FILES["file"])) {
     echo "Nothing is here ";
 }
 
-?>

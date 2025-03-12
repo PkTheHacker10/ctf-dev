@@ -44,6 +44,7 @@
             text-align: center;
         }
     </style>
+    
 </head>
 <body>
     <div class="notes-container">
@@ -55,6 +56,7 @@
             You should see deeper to get your solution.
             <!-- You made it here !! -->
             <!-- alex don't forget to remove /uploads folder too !!-->
+            <!-- Top secret : SU40V0VaTFNPTlNXRzVMU05GMkhTSURKT01RR0NJRFFPVjVIVTNERkZZUUZJMkRGRUJXVzY0VEZFQllHU1pMRE1WWlNBNkxQT1VRR0czM01OUlNXRzVCTUVCMkdRWkpBTU5XR0tZTFNNVlpDQTVESU1VUUhBMkxET1IyWEVaSkFNSlNXRzMzTk1WWlM0PT09 -->
         </div>
     </div>
     <div class="upload-container">
