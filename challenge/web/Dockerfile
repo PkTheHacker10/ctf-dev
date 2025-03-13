@@ -51,6 +51,14 @@ COPY src/ctf-files/backup.sh /rce/backup.sh
 
 RUN chown -R www-data:www-data /rce/backup.sh
 
+# Placing User flag
+COPY src/ctf-files/user.txt /home/alex/.user.txt
+RUN chown alex:alex /home/alex/.user.txt
+
+# Placing Root flag
+COPY src/ctf-files/root.txt /home/alex/.root.txt
+RUN chown root:root /home/alex/.user.txt
+
 # Adding execution permission to entrypoint file
 RUN chmod +x /.entrypoint.sh 
 

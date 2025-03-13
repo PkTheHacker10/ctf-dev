@@ -39,6 +39,5 @@ echo "      ######################################"
 
 # TO stop container (once you complete) run this 
     # sudo docker stop ctf-room     
-    
 # TO remmove container (once you complete) run this 
     # sudo docker rm ctf-room
