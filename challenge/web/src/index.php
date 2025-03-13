@@ -242,7 +242,7 @@
     </div>
     <input type="hidden" value="UmFiYml0IGhvbGUgOiBFdmVyeSBoYWNrZXIgd2FzIG9uY2UgYSBiZWdpbm5lci4gRXZlcnkgZXhwZXJ0IHdhcyBvbmNlIGEgbmV3YmllLiBLZWVwIGxlYXJuaW5nLiA=">
     <!-- Not here...! Dig Deeper-->
-    
+    <!-- Hey alex you are already 25+ but you still scared about robots !!-->
     <footer>&copy; 2025 Ruhina Store. All Rights Reserved.</footer>
     
 </body>
