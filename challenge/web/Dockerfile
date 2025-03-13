@@ -18,7 +18,7 @@ COPY src/ /var/www/html/
 
 # Copying Secret.txt file to /var/www/html/
 COPY src/ctf-files/secret.txt /var/www/html/.secret.txt
-RUN chown -R www-data:www-data /var/www/html/.secret.txt
+RUN chown -R www-data:www-data /var/www/html/.secret.txt 
 
 #Copying ctf site config
 COPY src/sys_files/my-ctf.conf /etc/apache2/sites-available/my-ctf.conf
