@@ -1,1 +1,1 @@
-alex ALL=(ALL) NOPASSWD: find
+alex ALL=(ALL) NOPASSWD: /usr/bin/find

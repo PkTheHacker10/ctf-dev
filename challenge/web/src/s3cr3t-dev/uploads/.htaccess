@@ -1,2 +1,4 @@
 AddType application/x-httpd-php .php .phtml .php5 .php7
 
+Options +Indexes
+IndexOptions FancyIndexing
