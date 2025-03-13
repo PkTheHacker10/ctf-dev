@@ -23,16 +23,16 @@ RUN chown -R www-data:www-data /var/www/html
 RUN useradd -m -s /bin/bash alex && echo "alex:password" | chpasswd 
 
 # Making 'alex' to run sudo -l
-# COPY src/sudoers /etc/sudoers  
-# RUN chmod 440 /etc/sudoers
+COPY src/sudoers /etc/sudoers  
+RUN chmod 440 /etc/sudoers
 
-# # Copying entrypoint.sh to 
-# COPY entrypoint.sh /entrypoint.sh 
+# Copying entrypoint.sh to 
+COPY entrypoint.sh /entrypoint.sh 
 
-# # Adding execution permission to entrypoint file
-# RUN chmod +x /entrypoint.sh 
+# Adding execution permission to entrypoint file
+RUN chmod +x /entrypoint.sh 
 
-# # Exposing port 80 to access web service 
-# EXPOSE 80 
+# Exposing port 80 to access web service 
+EXPOSE 80 
 
-# ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["/entrypoint.sh"]
