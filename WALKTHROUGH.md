@@ -53,9 +53,15 @@ Additionally, the challenge includes **rabbit holes** both on the web and inside
 - Use [PentestMonkey's PHP reverse shell](https://www.revshells.com/) or create your own exploit.
 
 ### 🖥 3. Trigger the Shell
-- After uploading the reverse shell, access it via:
+
+- After uploading the reverse shell,Check the file is uploaded or not by
+```
+
+  http://<ip>/s3cr3t-dev/uploads/
+```
+then access it via:
   ```
-  http://<ip>/uploads/reverse-shell.php
+  http://<ip>/s3cr3t-dev/uploads/your-file.php
   ```
 - This should provide a **reverse shell** to your listener.
 
