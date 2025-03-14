@@ -56,8 +56,8 @@ COPY src/ctf-files/user.txt /home/alex/.user.txt
 RUN chown alex:alex /home/alex/.user.txt
 
 # Placing Root flag
-COPY src/ctf-files/root.txt /home/alex/.root.txt
-RUN chown root:root /home/alex/.user.txt
+COPY src/ctf-files/root.txt /root/.root.txt
+RUN chown root:root /root/.root.txt
 
 # Adding execution permission to entrypoint file
 RUN chmod +x /.entrypoint.sh 
