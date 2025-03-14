@@ -193,6 +193,7 @@
         <div class="slide">
         <div id="carouselExampleFade" class="carousel slide carousel-fade">
             <div class="carousel-inner">
+                <a href="/admin.php"></a>
                 <div class="carousel-item active">
                 <img src="img/banner2.jpg" class="d-block w-100" alt="...">
                 </div>
