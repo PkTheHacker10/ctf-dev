@@ -15,4 +15,4 @@ echo "      ######################################"
 echo "      ##        Container Running         ##" 
 echo "      ######################################"
 
-echo you can access it via http://<container-ip>
+echo "you can access it via http://<container-ip>"

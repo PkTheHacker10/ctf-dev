@@ -40,7 +40,7 @@ Follow these steps to set up the challenge manually:
 ```
 cd ctf-dev/challenge/web
 sudo docker build -t my-ctf .
-sudo docker run -it --name ctf-room my-ctf
+sudo docker run -d --name ctf-room my-ctf
 ```
 You should find your docker ip to access the web to test this vulnerability
 you can get it by this command
@@ -55,6 +55,6 @@ Now you can be able to access it via " http://container-ip " from your host
 sudo docker stop ctf-room 
 sudo docker rm ctf-room
 ```
-```
+
 ## Detailed Walkthough 
 You can read the walkthrough for challenge solution from WALKTHROUGH.md
