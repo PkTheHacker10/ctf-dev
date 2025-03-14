@@ -13,8 +13,8 @@ This challenge focuses on identifying and exploiting a file upload vulnerability
 ---
 
 ## Objectives
-1. **Find the Abandoned Gate** – Discover the forgotten entrance hidden within the castle.
-2. **upload your exploit [php]** – Deploy a trusted entity through the gate to establish control.
+1. **Find the Abandoned Gate** 
+2. **upload your exploit [php]** .
 3. **Trigger the exploit to Take a Reverse Shell** – Exploit the vulnerability to gain a remote shell.
 4. **Escalate Privileges to root** – Gain root access through privilege escalation.
 
