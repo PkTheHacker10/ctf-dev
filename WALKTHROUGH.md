@@ -111,21 +111,17 @@ then access it via:
 ### 📍 User Flag
 - Located in:
   ```
-  /home/alex/user.txt
-  ```
-- Retrieve the contents using:
-  ```sh
-  cat /home/alex/user.txt
+  /home/alex/.user.txt
   ```
 
 ### 📍 Root Flag
 - Located in:
   ```
-  /root/root.txt
+  /root/.root.txt
   ```
 - Retrieve the contents using:
   ```sh
-  cat /root/root.txt
+  cat /root/.root.txt
   ```
 
 ---
