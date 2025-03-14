@@ -25,6 +25,10 @@ This challenge focuses on identifying and exploiting a file upload vulnerability
 
 Ensure you have **Docker** installed on your system. You can download it from [Docker's official site](https://docs.docker.com/get-started/get-docker/).
 
+- Clone this repo by
+```
+git clone https://github.com/PkTheHacker10/ctf-dev.git
+```
 ---
 
 ## Setup Guide
