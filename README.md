@@ -28,7 +28,9 @@ Ensure you have **Docker** installed on your system. You can download it from [D
 ---
 
 ## Setup Guide
-
+### step1 :
+Replace your ip address in servername that is located on challenge/web/src/sys_files/my-ctf.conf #TODO: switch it with .env for easy configuration.
+### step2 :
 ### Method 1: Automated Setup
 Run the provided `setup.sh` script to automate the container build and execution:
 ```sh
