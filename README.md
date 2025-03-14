@@ -32,14 +32,29 @@ Ensure you have **Docker** installed on your system. You can download it from [D
 ### Method 1: Automated Setup
 Run the provided `setup.sh` script to automate the container build and execution:
 ```sh
-./setup.sh
+cd ctf-dev/challenge
+sudo ./setup.sh
 ```
 ## Method 2: Manual Deployment
 Follow these steps to set up the challenge manually:
 ```
-cd /src
+cd ctf-dev/challenge/web
 sudo docker build -t my-ctf .
 sudo docker run -it --name ctf-room my-ctf
+```
+You should find your docker ip to access the web to test this vulnerability
+you can get it by this command
+
+```
+sudo docker exec ctf-room ifconfig
+```
+Now you can be able to access it via " http://container-ip " from your host
+
+## Steps to remove stop and remove container 
+```
+sudo docker stop ctf-room 
+sudo docker rm ctf-room
+```
 ```
 ## Detailed Walkthough 
 You can read the walkthrough for challenge solution from WALKTHROUGH.md
