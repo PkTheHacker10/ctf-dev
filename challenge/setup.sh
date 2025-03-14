@@ -11,8 +11,4 @@ echo "      ######################################"
 
 sudo docker run -d --name ctf-room my-ctf
 
-echo "      ######################################"
-echo "      ##        Container Running         ##" 
-echo "      ######################################"
-
-echo "you can access it via http://<container-ip>"
+echo "you can access it via http://<container-ip> .see README.md to know how to get your container ip"
